@@ -1,0 +1,73 @@
+
+.top {
+    background: url(/assets/hero.png) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+header {
+    background: rgba(255, 255, 255, .8);
+    box-shadow: 0px 3px 6px rgba(0,0,0, .12);
+    height: 54px;
+}
+
+.brand {
+    position: relative;
+}
+
+.brand-logo {
+    position: absolute;
+    width: 150px;
+    top: 5px;
+    left: 0;
+}
+
+.nav-item {
+    font-size: 14px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: normal;
+    padding: 10px;
+    border-bottom: 3px solid transparent;
+    color: #1B1C31;
+    pointer-events: none;
+}
+
+.active-nav {
+    border-bottom: 3px solid #E9D718;
+    font-weight: 500;
+}
+
+/* hero styles */
+
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+}
+
+.hero-content h1 {
+    text-transform: uppercase;
+    padding: 10px;
+    background: #E9D718;
+    color: #1B1C31;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    padding: 10px;
+    background: #1B1C31;
+    color: rgb(227, 229, 255);
+    text-transform: uppercase;
+    font-size: 34px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+
+

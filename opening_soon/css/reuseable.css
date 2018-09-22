@@ -50,3 +50,7 @@ button:hover {
 .fracture {
     border: 1px solid #000;
 }
+
+.dn {
+    display: none;
+}
